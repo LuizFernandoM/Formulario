@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 
@@ -25,3 +26,7 @@
     
     font: 16px / 1rem 
     }
+
+body{
+    overflow: hidden;
+}
