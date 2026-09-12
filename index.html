@@ -66,8 +66,9 @@
                         <fieldset class="address">
 
                             <legend>Endereço Residencial</legend>
+
                              <div class="input-wrapper flex-2">
-                                <label for="fullname">CEP</label>
+                                <label for="cep">CEP</label>
                                 <input id="cep" type="text" name="nome" placeholder="99999-999">
                             </div>
                     
@@ -99,6 +100,33 @@
 
                         </div>
                     
+                        </fieldset>
+
+                        <fieldset class="guardian">
+                            <legend>Informações do responsável</legend>
+                            
+                             <div class="input-wrapper">
+                                <label for="guardian">nome do Responsável</label>
+                                <input id="guardian" type="text" name="guardian">
+                                <small>Principal responsável legal e contato de emergência</small>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="phone">Telefone</label>
+                                <input id="phone" type="text" name="phone" placeholder="(55) 12345-6789"> 
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" name="email" required>
+
+                                <div class="error">
+                                    <img src="assets/icons/alert-circle (1).svg" alt="icone de erro">
+                                    <span>Por favor, insira um email válido</span>
+                                </div>
+                            </div>
+                            
+
                         </fieldset>
                     </form>
 
